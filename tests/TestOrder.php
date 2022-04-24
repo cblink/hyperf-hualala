@@ -27,10 +27,10 @@ class TestOrder extends TestCase
 
     public function testOrder()
     {
-//        $data = [
-//        ];
-//        $result = $this->hualala->order->submitOrderNew($data);
-//        $this->assertTrue($result['code'] === '000');
+        $data = [
+        ];
+        $result = $this->hualala->order->submitOrderNew($data);
+        $this->assertTrue($result['code'] === '000');
     }
 
     public function testGetShopBillDetail()
