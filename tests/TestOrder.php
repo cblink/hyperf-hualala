@@ -25,7 +25,7 @@ class TestOrder extends TestCase
         ]);
     }
 
-    public function testOrder()
+    public function testSubmitOrder()
     {
         $data = [
         ];
