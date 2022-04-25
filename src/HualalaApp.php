@@ -9,8 +9,9 @@ use Cblink\HyperfHualala\Kernel\ServiceContainer;
 /**
  * @property Order\Client $order
  * @property Shop\Client $shop
- * Class HualalaOpen
- * @package Cblink\HualalaSdk
+ * @property Food\Client $food
+ * Class HualalaApp
+ * @package Cblink\HyperfHualala
  */
 class HualalaApp extends ServiceContainer
 {
@@ -27,6 +28,7 @@ class HualalaApp extends ServiceContainer
         return [
             Order\ServiceProvider::class,
             Shop\ServiceProvider::class,
+            Food\ServiceProvider::class,
         ];
     }
 }
