@@ -10,6 +10,7 @@ use Cblink\HyperfHualala\Kernel\ServiceContainer;
  * @property Order\Client $order
  * @property Shop\Client $shop
  * @property Food\Client $food
+ * @property Member\Client $member
  * Class HualalaApp
  * @package Cblink\HyperfHualala
  */
@@ -29,6 +30,7 @@ class HualalaApp extends ServiceContainer
             Order\ServiceProvider::class,
             Shop\ServiceProvider::class,
             Food\ServiceProvider::class,
+            Member\ServiceProvider::class,
         ];
     }
 }
